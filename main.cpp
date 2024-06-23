@@ -10,7 +10,7 @@
 int main(int argc, char ** argv){
     
     int number = 10;
-    
+    std::cout << "test" << std::endl;   
     while (number != 1) {
         if (number % 2 == 0) {
             number = number/2; // Divide it by 2
